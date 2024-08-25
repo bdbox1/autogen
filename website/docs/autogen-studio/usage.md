@@ -35,7 +35,7 @@ Once agents have been created, existing models or skills can be _added_ to the a
 
 An agent workflow is a specification of a set of agents (team of agents) that can work together to accomplish a task. AutoGen Studio supports two types of high level workflow patterns:
 
-#### Autonomous Chat :
+#### Autonomous Chat
 
 This workflow implements a paradigm where agents are defined and a chat is initiated between the agents to accomplish a task. AutoGen simplifies this into defining an `initiator` agent and a `receiver` agent where the receiver agent is selected from a list of previously created agents. Note that when the receiver is a `GroupChat` agent (i.e., contains multiple agents), the communication pattern between those agents is determined by the `speaker_selection_method` parameter in the `GroupChat` agent configuration.
 
